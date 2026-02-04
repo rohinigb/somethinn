@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const noBtn = document.getElementById('no-btn');
 
   yesBtn.addEventListener('click', function() {
-    window.location.href = '../g5/g5.html';
+    window.location.href = 'g5.html';
   });
 
   noBtn.addEventListener('mouseenter', function() {
@@ -42,3 +42,4 @@ document.addEventListener('DOMContentLoaded', function() {
     noBtn.style.top = randomY + 'px';
   });
 });
+
