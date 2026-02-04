@@ -14,7 +14,7 @@ $(document).ready(function () {
     close();
   });
   document.getElementById('nextButton').addEventListener('click', function() {
-    window.location.href = 'g2/g2.html';  // Replace with your target URL
+    window.location.href = 'g2.html';  // Replace with your target URL
 });
 
   function open() {
@@ -24,3 +24,4 @@ $(document).ready(function () {
     envelope.addClass("close").removeClass("open");
   }
 });
+
